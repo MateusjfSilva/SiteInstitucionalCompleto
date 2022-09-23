@@ -1,9 +1,9 @@
 /* formulario de login */
 
-.caixa_formulario {
+.caixa_formulario_cadastro {
     background: white;
     width: 400px;
-    height: 300px;
+    height: 420px;
     color: palevioletred;
     display: flex;
     flex-direction: column;
@@ -12,25 +12,24 @@
     border-radius: 10px;
 }
 
-.caixa_formulario h1 {
+.caixa_formulario_cadastro h1 {
     font-size: 30px;
 }
-
-.formulario {
+.formulario_cadastro {
     width: 200px;
 
     display: flex;
     flex-direction: column;
 }
 
-.formulario input {
+.formulario_cadastro input {
     padding: 10px 15px;
     text-align: center;
     border: solid 2px rgb(82, 143, 196);
     border-radius: 4px;
 }
 
-.formulario button {
+.formulario_cadastro button {
     width: 120px;
     margin-top: 10px;
     background: #e1374e;
@@ -42,6 +41,8 @@
     align-self: center;
 }
 
-.formulario span {
+.formulario_cadastro span {
+    margin-top: 8px;
     font-weight: 800;
+    font-size: 15.5px;
 }

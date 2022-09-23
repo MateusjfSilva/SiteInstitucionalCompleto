@@ -24,7 +24,7 @@ body {
 
 .navbar {
     display: flex;
-    width: 600px;
+    width: 400px;
     justify-content: space-around;
     color: #e3b062;
     list-style: none;
@@ -59,6 +59,16 @@ body {
     font-weight: 800;
 }
 
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+.header a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
 /*Missão, Visão e Valores*/
 
 .social {
@@ -70,9 +80,9 @@ body {
     width: 170px;
 }
 
-.social .container {
-    /* border: solid 3px purple; */
-}
+/* .social .container {
+    border: solid 3px purple;
+} */
 
 .social .container .boxes {
     /* border: solid 3px yellow; */

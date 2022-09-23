@@ -1,0 +1,47 @@
+/* formulario de login */
+
+.caixa_formulario {
+    background: white;
+    width: 400px;
+    height: 300px;
+    color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.caixa_formulario h1 {
+    font-size: 30px;
+}
+.
+.formulario {
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    padding: 10px 15px;
+    text-align: center;
+    border: solid 2px rgb(82, 143, 196);
+    border-radius: 4px;
+}
+
+.formulario button {
+    width: 120px;
+    margin-top: 10px;
+    background: #e1374e;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    align-self: center;
+}
+
+.formulario span {
+    font-weight: 800;
+}
